@@ -1,0 +1,22 @@
+Connection: 192.168.50.89:5000
+chassis:
+    context: /redfish/v1/$metadata#Chassis.Chassis
+    odataid: /redfish/v1/Chassis/Chassis-14
+    odatatype: Chassis.v1_0_0.Chassis
+    Id: Chassis-14
+    Name: Computer System Chassis
+    ChassisType: RackMount
+    Manufacturer: Redfish Computers
+    Model: 3500RX
+    SKU: 8675309
+    SerialNumber: 437XR1138R2
+    Version: 1.02
+    PartNumber: 224071-J23
+    AssetTag: Chicago-45Z-2381
+    Status:
+        State: Enabled
+        Health: OK
+    Thermal:
+        '@odata.id': /redfish/v1/Chassis/Chassis-14/Thermal
+    Power:
+        '@odata.id': /redfish/v1/Chassis/Chassis-14/Power
