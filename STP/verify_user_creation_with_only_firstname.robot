@@ -1,5 +1,6 @@
 ***Settings***
 
+
 *** Variables ***
 @{packages}       robotframework-selenium2library
 
