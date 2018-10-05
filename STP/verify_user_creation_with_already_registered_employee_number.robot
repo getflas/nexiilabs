@@ -1,11 +1,15 @@
-*** Settings ***
+***Settings***
 Library           Selenium2Library    WITH NAME    se
+
+
 
 *** Variables ***
 @{packages}       robotframework-selenium2library
 
+
+
 *** Test Cases ***
-verify_user_creation_with_already_registered_employee_number
+verify_user_creation_with_already_registered_employee_number.robot
     ${chrome_options} =    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
     Call Method    ${chrome_options}    add_argument    headless
     Call Method    ${chrome_options}    add_argument    disable-gpu
